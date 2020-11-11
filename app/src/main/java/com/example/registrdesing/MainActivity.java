@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     }
-    public void OnClick(View view){
+    public void onClick(View view){
         int res = 0;
 
         if(view.getId() == R.id.btn_plus){
