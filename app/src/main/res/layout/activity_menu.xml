@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMenu1"
+            style="@style/menu_btn_style"
+            android:text="menu 1" />
+
+        <Button
+            android:id="@+id/btnMenu2"
+            style="@style/menu_btn_style"
+            android:text="menu 2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnMenu3"
+            style="@style/menu_btn_style"
+            android:text="menu 3"/>
+        <Button
+            android:id="@+id/btnMenu4"
+            style="@style/menu_btn_style"
+            android:text="menu 4"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
